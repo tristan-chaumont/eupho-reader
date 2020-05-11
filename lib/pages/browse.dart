@@ -1,12 +1,12 @@
 import 'package:eupho_reader/extensions/en/mangaowl/mangaowl.dart';
 import 'package:flutter/material.dart';
 
-class Library extends StatefulWidget {
+class Browse extends StatefulWidget {
   @override
-  _LibraryState createState() => _LibraryState();
+  _BrowseState createState() => _BrowseState();
 }
 
-class _LibraryState extends State<Library> {
+class _BrowseState extends State<Browse> {
   Future<Widget> futureOnePiece;
 
   @override
@@ -19,7 +19,7 @@ class _LibraryState extends State<Library> {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Library Page',
+        'Browse Page',
         style: TextStyle(
           fontSize: 30,
           fontWeight: FontWeight.bold,
